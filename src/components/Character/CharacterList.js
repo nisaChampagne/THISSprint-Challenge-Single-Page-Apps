@@ -23,6 +23,7 @@ export default function CharacterList(props) {
               species={character.species}
               name={character.name}
               status={character.status}
+              origin={character.origin.name}
               number={character.id}
               gender={character.gender} />
             ))}

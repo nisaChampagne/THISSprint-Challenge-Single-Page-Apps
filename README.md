@@ -27,7 +27,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ] Explain benefit(s) using `client-side routing`?
 
 
-> Answer:Faster; no white screen intermission when moving between pages;
+> Answer:The routing between views is faster.
+ no white screen intermission when moving between pages.
+ 
 
 
 - [ ] What does AJAX stand for?
@@ -39,7 +41,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ] What are `controlled components` in React?
 
 
-> Answer: Controlled components  are controlled data that is  handled by a react component versus the DOM
+> Answer: Controlled components are composed of data that maintain their own state that are  handled by a react component versus the DOM
 
 
 - [ ] Name three tools/libraries for making AJAX requests.
