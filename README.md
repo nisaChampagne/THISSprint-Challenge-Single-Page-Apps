@@ -27,9 +27,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ] Explain benefit(s) using `client-side routing`?
 
 
-> Answer:The routing between views is faster.
- no white screen intermission when moving between pages.
- 
+> Answer:The routing between views is faster as you are only loading a small section of the page to fetch new content versus loading the entire page again.
+ no white screen intermission.
+ client-side routing handles mapping between the URL bar and the content a user sees via browser rather than via server. 
 
 
 - [ ] What does AJAX stand for?
