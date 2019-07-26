@@ -23,7 +23,8 @@ export default function CharacterList(props) {
               species={character.species}
               name={character.name}
               status={character.status}
-              number={character.id} />
+              number={character.id}
+              gender={character.gender} />
             ))}
     </section>
   );

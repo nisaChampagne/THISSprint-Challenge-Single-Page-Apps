@@ -1,12 +1,14 @@
 import React from 'react'
 
 export default function CharacterCard (props) {
+
   return (
   <span className='character-card'>
-    <img src={props.img} alt='character'/>
+    <img src={props.img} alt='rick and morty character'/>
     <h2 className='character-name'>{props.name}</h2>
     <p>Status: {props.status}</p>
     <p>Species: {props.species}</p>
+    <p>Gender: {props.gender}</p>
     <p>ID: {props.number}</p>
   </span>
   );

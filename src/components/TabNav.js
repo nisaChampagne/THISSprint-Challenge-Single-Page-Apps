@@ -2,7 +2,6 @@ import React from 'react'
 import { Tab, Menu, Icon } from 'semantic-ui-react'
 import { NavLink } from "react-router-dom";
 
-// TODO: Add missing tabs below
 
 const Nav = props => (
 	<NavLink
@@ -23,9 +22,9 @@ const locationLabel = createLabel("location", "Location")
 
 const panes = [
   { menuItem: <Menu.Item key='home' as={Nav} to={`/`} content={welcomeLabel} /> },
-  { menuItem: <Menu.Item key='characters' as={Nav} to={`/characters`} content={characterLabel} /> },
-  { menuItem: <Menu.Item key='episodes' as={Nav} to={`/episodes`} content={episodesLabel} /> },
-  { menuItem: <Menu.Item key='location' as={Nav} to={`/location`} content={locationLabel} /> }
+  { menuItem: <Menu.Item key='characters' as={Nav} to={`/characters/`} content={characterLabel} /> },
+  { menuItem: <Menu.Item key='episodes' as={Nav} to={`/episodes/`} content={episodesLabel} /> },
+  { menuItem: <Menu.Item key='location' as={Nav} to={`/locations`} content={locationLabel} /> }
 ]
 
 
