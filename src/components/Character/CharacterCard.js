@@ -5,12 +5,22 @@ import { Card } from 'semantic-ui-react'
 export default function CharacterCard (props) {
 
   return (
-    <Card className='character-card'
-    image={props.img} alt='rick and morty characters'
-    header={props.name}
-    meta={props.status}
-    description={props.species} 
-    extra={props.gender}/>
+    <Card>
+    <Card.Content className='ui centered cards'>
+      <Card.Header>{props.name}</Card.Header>
+      <img src={props.img} alt='rick and morty characters'style={{maxWidth: '200px'}} />
+      <Card.Description>Status: {props.status}</Card.Description>
+      <Card.Description>Species: {props.species}</Card.Description>
+      <Card.Description>Gender: {props.gender}</Card.Description>
+    </Card.Content>
+  </Card>
+
+  //   <Card 
+  //   image={props.img} alt='rick and morty characters'
+  //   header={props.name}
+  //   meta={props.status}
+  //   description={props.species} 
+  //   extra={props.gender}/>
   );
 }
 
